@@ -10,7 +10,7 @@ exclude:
 
 # Site settings
 title: Jonny Batty
-subtitle: "A blog about computer science, data sceince and cardiology."
+subtitle: "A blog about computer science, data science and cardiology."
 email: J.Batty@leeds.ac.uk 
 name: Jonny Batty
 description: >
@@ -78,29 +78,29 @@ descriptions:
 social:
   - name: Twitter
     icon: twitter
-    username: JonnyBatty
+    username: Twitter
     url: https://twitter.com/JonnyBatty
     desc: Follow me on Twitter
     share: true
 
   - name: Facebook
     icon: facebook
-    username: thebencentra
+    username: ""
     url: ""
     desc: Friend me on Facebook
     share: true
 
   - name: GitHub
     icon: github
-    username: bencentra
-    url: https://github.com/bencentra
+    username: GitHub
+    url: https://github.com/jonathanbatty
     desc: Fork me on GitHub
     share: false
 
   - name: LinkedIn
     icon: linkedin
-    username: Ben Centra
-    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
+    username: LinkedIn
+    url: https://www.linkedin.com/in/jonathan-batty-000a0256/
     desc: Connect with me on LinkedIn
     share: true
 
