@@ -1,7 +1,33 @@
 ---
-title: "jonathanbatty.github.io"
+title: "Dr Jonny Batty"
+image: profile.jpg
+toc: false
+about:
+    template: trestles
+    image-shape: round
+    image-width: 20em
+    links:
+        - icon: twitter
+          text: Twitter
+          href: https://twitter.com/JonnyBatty
+        - icon: github
+          text: GitHub
+          href: https://github.com/jonathanbatty
+        - icon: envelope
+          text: Email
+          href: mailto:J.Batty@leeds.ac.uk
 ---
 
-This is a Quarto website.
+## Hi there!
+I'm a Specialty Registrar in Cardiology (ST6), currently doing a PhD at the University of Leeds. {{< fa heart-pulse >}} 
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+---
+
+## Education
+**BSc(Hons) in Clinical Sciences in Relation to Medicine** (2012) | University of Leeds, UK.
+
+**MBChB(Hons) in Medicine and Surgery** (2014) | University of Leeds, UK.
+
+**MPH in Quantitative Methods** (2017) | Harvard T.H. Chan School of Public Health, Harvard University, USA.
+
+**PhD in Medicine** (expected 2025) | University of Leeds, UK.

@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "jonathanbatty.github.io",
+    "title": "Dr Jonny Batty",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "I’m a Specialty Registrar in Cardiology (ST6), currently doing a PhD at the University of Leeds."
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,26 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "index.html#hi-there",
+    "href": "index.html#hi-there",
+    "title": "Dr Jonny Batty",
+    "section": "",
+    "text": "I’m a Specialty Registrar in Cardiology (ST6), currently doing a PhD at the University of Leeds."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Dr Jonny Batty",
+    "section": "Education",
+    "text": "Education\nBSc(Hons) in Clinical Sciences in Relation to Medicine (2012) | University of Leeds, UK.\nMBChB(Hons) in Medicine and Surgery (2014) | University of Leeds, UK.\nMPH in Quantitative Methods (2017) | Harvard T.H. Chan School of Public Health, Harvard University, USA.\nPhD in Medicine (expected 2025) | University of Leeds, UK."
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Recent presentations."
   }
 ]
