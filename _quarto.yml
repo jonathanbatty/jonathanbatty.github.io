@@ -16,6 +16,8 @@ website:
     right:
       - href: index.qmd
         text: Home
+      - href: about.qmd
+        text: About Me
       - posts.qmd
       - projects.qmd
       - presentations.qmd
