@@ -1,5 +1,5 @@
 ---
-title: " "
+title: "&nbsp;"
 toc: false
 anchor-sections: false
 page-layout: full
