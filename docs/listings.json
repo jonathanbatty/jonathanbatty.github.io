@@ -1,0 +1,32 @@
+[
+  {
+    "listing": "/software.html",
+    "items": [
+      "/software/2023-10-17-first-software/index.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/2023-10-17-first-publication/index.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/2023-10-17-first-projects/index.html"
+    ]
+  },
+  {
+    "listing": "/presentations.html",
+    "items": [
+      "/presentations/2023-10-17-first-presentation/index.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2023-10-17-first-post/index.html"
+    ]
+  }
+]
