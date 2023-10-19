@@ -21,7 +21,7 @@ I am a Specialty Registrar in Cardiology (ST6) with a subspeciality interest in 
 - **MBChB(Hons) in Medicine and Surgery**<br>2014 | With Honours | University of Leeds, UK.
 - **BSc(Hons) in Clinical Sciences in Relation to Medicine**<br>2012 | First class | University of Leeds, UK.
 
-### {{< fa graduation-cap >}} &nbsp; Medical Education
+### {{< fa stethoscope >}} &nbsp; Medical Education
 - **European Exam in Core Cardiology (EECC)**<br>2022 | European Society of Cardiology.
 - **Diploma in Geriatric Medicine (DGM)**<br>2019 | Royal College of Physicians, London, UK.
 - **Membership of the Royal College of Physicians (MRCP)** <br> 2018 | Royal College of Physicians London, UK.
@@ -182,7 +182,7 @@ The [Nuffield Research Placement](https://www.nuffieldresearchplacements.org/) s
 [Data Study Groups](https://www.turing.ac.uk/collaborate-turing/data-study-groups) are intensive 'collaborative hackathons', where researchers brainstorm and engineer data science solutions, presenting their work after the end of a week. I was invited to act as Prinicipal Investigator for a DSG, held in March 2023 at The Helix, Newcastle University, Newcastle Upon Tyne. This was entitled, "Exploring multimorbidity and patterns of long-term conditions in England using open
 prescription and primary care data" and the full report is currently in press.
 
-## {{< fa person-chalkboard >}} &nbsp;Other Indicators of Esteem
+## {{< fa star >}} &nbsp;Other Indicators of Esteem
 **Peer review** <br>
 I peer review for a number of journals. Recently, these have included (in alphabetical order):
 *BMJ*, *BMJ Public Health*, *Cardiology*, *Clinical Medicine*, *Diabetes and Vascular Disease Research*, *EHJ Case Reports*, *Heart*, *International Journal of Cardiology*, *Lancet*, *MedComm*, and *Systematic Reviews*.
