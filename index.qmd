@@ -20,7 +20,7 @@ My name is Dr Jonny Batty and I am an academic cardiology doctor, based in the [
 
 During my PhD, I am using advanced statistical methods to explore the impact of different patterns of multiple long-term conditions in people diagnosed with acute myocardial infarction. This has kindly been funded by [The Wellcome Trust](https://www.4wardnorth.org.uk/) and is supervised by [Dr Marlous Hall](https://medicinehealth.leeds.ac.uk/medicine/staff/390/dr-marlous-hall), Principal Investigator of the [Survivorship and Multimorbidity Epidemiology research group](https://lida.leeds.ac.uk/research-projects/survivorship-and-multimorbidity-epidemiology/).
 
-I'll probably use this as a place to share code snippets, presentations, publications and other thoughts.
+I'll use this as a place to share code snippets, presentations, publications and other thoughts.
 
 :::
 :::
