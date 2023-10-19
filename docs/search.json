@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "Dr Jonathan Batty",
     "section": "",
-    "text": "My name is Dr Jonny Batty and I am an academic cardiology doctor, based in the Leeds Institute for Data Analytics (LIDA) at the University of Leeds. I am passionate about using routinely-collected healthcare data to better understand health and disease, and to build tools that can be used to improve clinical care.\nDuring my PhD, I plan to use advanced statistical methods to explore the impact of different patterns of multiple long-term conditions in people diagnosed with acute myocardial infarction. This has kindly been funded by The Wellcome Trust. My lead supervisor is Dr Marlous Hall, PI of the Survivorship and Multimorbidity Epidemiology research group.\nI’ll probably use this as a place to share code snippets, presentations, publications and other thoughts."
+    "text": "My name is Dr Jonny Batty and I am an academic cardiology doctor, based in the Leeds Institute for Data Analytics (LIDA) at the University of Leeds. I am passionate about using routinely-collected healthcare data to better understand health and disease, and to build tools that can be used to improve clinical care.\nDuring my PhD, I am using advanced statistical methods to explore the impact of different patterns of multiple long-term conditions in people diagnosed with acute myocardial infarction. This has kindly been funded by The Wellcome Trust and is supervised by Dr Marlous Hall, Principal Investigator of the Survivorship and Multimorbidity Epidemiology research group.\nI’ll probably use this as a place to share code snippets, presentations, publications and other thoughts."
   },
   {
     "objectID": "index.html#hi-there-fa-heart-pulse",
@@ -44,9 +44,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About Me",
+    "title": "Dr Jonathan Batty",
     "section": "",
-    "text": "I am … GMC 7454712"
+    "text": "I am a Specialty Registrar in Cardiology (ST6) with a subspeciality interest in coronary intervention. When I’m not in the Cath Lab or on the Coronary Care Unit, you’ll probably find me behind a computer, analysing data or trying to persuade a machine learning model to work."
   },
   {
     "objectID": "posts/2023-10-17-first-post/index.html#footnotes",
@@ -170,28 +170,28 @@
   {
     "objectID": "about.html#fa-comment-summary",
     "href": "about.html#fa-comment-summary",
-    "title": "About Me",
+    "title": "Dr Jonathan Batty",
     "section": "",
-    "text": "I am … GMC 7454712"
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra consectetur quam, et facilisis velit maximus sed. Quisque laoreet nibh finibus congue scelerisque. Proin pellentesque ipsum efficitur purus ultrices, et consectetur lorem aliquam. Quisque quis sem ac dolor consectetur efficitur non ut dolor. Quisque tempor venenatis tincidunt. Integer condimentum sollicitudin massa, sed laoreet ipsum lacinia quis. Proin a cursus justo. Nulla sed feugiat velit, vel congue dui. Maecenas accumsan et tellus vel facilisis. Proin tempor sem sit amet turpis suscipit, vitae laoreet leo rhoncus. Donec in libero est. Donec luctus urna at justo consequat, vehicula pellentesque orci aliquet. Proin arcu ligula, condimentum nec magna aliquam, blandit pellentesque est. Duis risus felis, gravida a arcu at, ornare varius enim. Duis fringilla iaculis tortor quis luctus."
   },
   {
     "objectID": "about.html#fa-graduation-cap-education",
     "href": "about.html#fa-graduation-cap-education",
-    "title": "About Me",
+    "title": "Dr Jonathan Batty",
     "section": "  Education",
     "text": "Education\nBSc(Hons) in Clinical Sciences in Relation to Medicine (2012) | University of Leeds, UK.\nMBChB(Hons) in Medicine and Surgery (2014) | University of Leeds, UK.\nMPH in Quantitative Methods (2017) | Harvard T.H. Chan School of Public Health, Harvard University, USA.\nBSc(Hons) in Computer Science (Data Science) (2012) | University of London, UK.\nPhD in Medicine (expected 2025) | University of Leeds, UK."
   },
   {
     "objectID": "about.html#fa-user-doctor-experience",
     "href": "about.html#fa-user-doctor-experience",
-    "title": "About Me",
+    "title": "Dr Jonathan Batty",
     "section": "  Experience",
     "text": "Experience\n2023\nKnox Fellow, Harvard University\nWellcome Trust Clinical PhD Fellow (4Ward North)"
   },
   {
     "objectID": "about.html#other",
     "href": "about.html#other",
-    "title": "About Me",
+    "title": "Dr Jonathan Batty",
     "section": "Other",
     "text": "Other\nTuring Data Study Group UKRI Talent Peer Review College member list Peer review for: BMJ,"
   },
@@ -249,13 +249,55 @@
     "href": "index.html#hi-there",
     "title": "Dr Jonathan Batty",
     "section": "",
-    "text": "My name is Dr Jonny Batty and I am an academic cardiology doctor, based in the Leeds Institute for Data Analytics (LIDA) at the University of Leeds. I am passionate about using routinely-collected healthcare data to better understand health and disease, and to build tools that can be used to improve clinical care.\nDuring my PhD, I plan to use advanced statistical methods to explore the impact of different patterns of multiple long-term conditions in people diagnosed with acute myocardial infarction. This has kindly been funded by The Wellcome Trust. My lead supervisor is Dr Marlous Hall, PI of the Survivorship and Multimorbidity Epidemiology research group.\nI’ll probably use this as a place to share code snippets, presentations, publications and other thoughts."
+    "text": "My name is Dr Jonny Batty and I am an academic cardiology doctor, based in the Leeds Institute for Data Analytics (LIDA) at the University of Leeds. I am passionate about using routinely-collected healthcare data to better understand health and disease, and to build tools that can be used to improve clinical care.\nDuring my PhD, I am using advanced statistical methods to explore the impact of different patterns of multiple long-term conditions in people diagnosed with acute myocardial infarction. This has kindly been funded by The Wellcome Trust and is supervised by Dr Marlous Hall, Principal Investigator of the Survivorship and Multimorbidity Epidemiology research group.\nI’ll probably use this as a place to share code snippets, presentations, publications and other thoughts."
   },
   {
     "objectID": "index.html#latest-posts",
     "href": "index.html#latest-posts",
     "title": "Dr Jonathan Batty",
     "section": "Latest posts…",
-    "text": "Latest posts…\n\n\n\n\nRecent posts\n\n\n\n\n\n\nRecent talks\n\n\n\n\n\n\nRecent publications\n\n\n\n\n\n\nHello 4\n\n\n\n\n\n\nHello 5\n\n\n\n\n\n\nHello 6"
+    "text": "Latest posts…"
+  },
+  {
+    "objectID": "about.html#fa-graduation-cap-contact",
+    "href": "about.html#fa-graduation-cap-contact",
+    "title": "Dr Jonathan Batty",
+    "section": "  Contact",
+    "text": "Contact\nGMC 7454712"
+  },
+  {
+    "objectID": "about.html#fa-comment-about-me",
+    "href": "about.html#fa-comment-about-me",
+    "title": "Dr Jonathan Batty",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra consectetur quam, et facilisis velit maximus sed. Quisque laoreet nibh finibus congue scelerisque. Proin pellentesque ipsum efficitur purus ultrices, et consectetur lorem aliquam. Quisque quis sem ac dolor consectetur efficitur non ut dolor. Quisque tempor venenatis tincidunt. Integer condimentum sollicitudin massa, sed laoreet ipsum lacinia quis. Proin a cursus justo. Nulla sed feugiat velit, vel congue dui. Maecenas accumsan et tellus vel facilisis. Proin tempor sem sit amet turpis suscipit, vitae laoreet leo rhoncus. Donec in libero est. Donec luctus urna at justo consequat, vehicula pellentesque orci aliquet. Proin arcu ligula, condimentum nec magna aliquam, blandit pellentesque est. Duis risus felis, gravida a arcu at, ornare varius enim. Duis fringilla iaculis tortor quis luctus."
+  },
+  {
+    "objectID": "about.html#fa-address-card-contact",
+    "href": "about.html#fa-address-card-contact",
+    "title": "Dr Jonathan Batty",
+    "section": "  Contact",
+    "text": "Contact\nGMC 7454712"
+  },
+  {
+    "objectID": "about.html#other-indicators-of-esteem",
+    "href": "about.html#other-indicators-of-esteem",
+    "title": "Dr Jonathan Batty",
+    "section": "Other Indicators of Esteem",
+    "text": "Other Indicators of Esteem\nPeer review I regularly perform peer review of articles submitted to a number of journals. Recently, these have included (in alphabetical order): BMJ, BMJ Public Health, BMJ Student, Cardiology, Clinical Medicine, Diabetes and Vascular Disease Research, EHJ Case Reports, Heart, International Journal of Cardiology, Lancet, MedComm, and Systematic Reviews. Member of the UKRI Talent Peer Review College"
+  },
+  {
+    "objectID": "about.html#fa-person-chalkboard-other-indicators-of-esteem",
+    "href": "about.html#fa-person-chalkboard-other-indicators-of-esteem",
+    "title": "Dr Jonathan Batty",
+    "section": "  Other Indicators of Esteem",
+    "text": "Other Indicators of Esteem\nPeer review  I peer review for a number of journals. Recently, these have included (in alphabetical order): BMJ, BMJ Public Health, Cardiology, Clinical Medicine, Diabetes and Vascular Disease Research, EHJ Case Reports, Heart, International Journal of Cardiology, Lancet, MedComm, and Systematic Reviews.\nThe UKRI Talent Peer Review College I am a member of the [UKRI Talent Peer Review College(https://www.ukri.org/publications/ukri-talent-peer-review-college-member-list/) and have provided expert, independent, informed reviews of research proposals submitted to EPSRC for consideration for funding."
+  },
+  {
+    "objectID": "about.html#fa-person-chalkboard-other-esteem-indicators",
+    "href": "about.html#fa-person-chalkboard-other-esteem-indicators",
+    "title": "Dr Jonathan Batty",
+    "section": "  Other Esteem Indicators",
+    "text": "Other Esteem Indicators\nPeer review  I peer review for a number of journals. Recently, these have included (in alphabetical order): BMJ, BMJ Public Health, Cardiology, Clinical Medicine, Diabetes and Vascular Disease Research, EHJ Case Reports, Heart, International Journal of Cardiology, Lancet, MedComm, and Systematic Reviews.\nThe UKRI Talent Peer Review College I am a member of the [UKRI Talent Peer Review College(https://www.ukri.org/publications/ukri-talent-peer-review-college-member-list/) and have provided expert, independent, informed reviews of research proposals submitted to EPSRC for consideration for funding."
   }
 ]
