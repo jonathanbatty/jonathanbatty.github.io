@@ -1,11 +1,10 @@
 ---
-title: "&nbsp;"
+title: "Hi there!"
 toc: false
 anchor-sections: false
 page-layout: full
 ---
 
-## Hi there!
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
