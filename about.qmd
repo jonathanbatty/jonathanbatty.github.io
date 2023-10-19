@@ -1,5 +1,35 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
-Coming soon.
+## {{< fa comment >}} &nbsp;Summary
+
+I am ...
+GMC 7454712
+
+## {{< fa graduation-cap >}} &nbsp;Education
+
+**BSc(Hons) in Clinical Sciences in Relation to Medicine** (2012) | University of Leeds, UK.
+
+**MBChB(Hons) in Medicine and Surgery** (2014) | University of Leeds, UK.
+
+**MPH in Quantitative Methods** (2017) | Harvard T.H. Chan School of Public Health, Harvard University, USA.
+
+**BSc(Hons) in Computer Science (Data Science)** (2012) | University of London, UK.
+
+**PhD in Medicine** (expected 2025) | University of Leeds, UK.
+
+## {{< fa user-doctor >}} &nbsp;Experience
+
+2023
+
+Knox Fellow, Harvard University
+
+Wellcome Trust Clinical PhD Fellow (4Ward North)
+
+
+## Other 
+
+Turing Data Study Group
+UKRI Talent Peer Review College member list
+Peer review for: BMJ, 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Dr Jonathan Batty - About Me</title>
+<title>Dr Jonathan Batty - Posts</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./graphics/favicon.ico" rel="icon">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -62,16 +64,38 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-X9ZR5DDN28"></script>
+<script>
 
-<script type="text/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-X9ZR5DDN28', { 'anonymize_ip': true});
-</script>
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
 
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -82,30 +106,22 @@ gtag('config', 'G-X9ZR5DDN28', { 'anonymize_ip': true});
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./graphics/transparent_dark.png" alt="" class="navbar-logo">
-    </a>
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Dr.&nbsp;Jonny Batty</span>
-    </a>
-  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html" rel="" target="">
+    <a class="nav-link active" href="./posts.html" rel="" target="" aria-current="page">
  <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
@@ -125,7 +141,7 @@ gtag('config', 'G-X9ZR5DDN28', { 'anonymize_ip': true});
  <span class="menu-text">Software</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools ms-auto">
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -136,23 +152,14 @@ gtag('config', 'G-X9ZR5DDN28', { 'anonymize_ip': true});
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#fa-comment-summary" id="toc-fa-comment-summary" class="nav-link active" data-scroll-target="#fa-comment-summary"><i class="fa-solid fa-comment" aria-label="comment"></i> &nbsp;Summary</a></li>
-  <li><a href="#fa-graduation-cap-education" id="toc-fa-graduation-cap-education" class="nav-link" data-scroll-target="#fa-graduation-cap-education"><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> &nbsp;Education</a></li>
-  <li><a href="#fa-user-doctor-experience" id="toc-fa-user-doctor-experience" class="nav-link" data-scroll-target="#fa-user-doctor-experience"><i class="fa-solid fa-user-doctor" aria-label="user-doctor"></i> &nbsp;Experience</a></li>
-  <li><a href="#other" id="toc-other" class="nav-link" data-scroll-target="#other">Other</a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Introduction">Introduction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About Me</h1>
+<h1 class="title">Posts</h1>
 </div>
 
 
@@ -167,32 +174,53 @@ gtag('config', 'G-X9ZR5DDN28', { 'anonymize_ip': true});
 
 </header>
 
-<section id="fa-comment-summary" class="level2">
-<h2 class="anchored" data-anchor-id="fa-comment-summary"><i class="fa-solid fa-comment" aria-label="comment"></i> &nbsp;Summary</h2>
-<p>I am … GMC 7454712</p>
-</section>
-<section id="fa-graduation-cap-education" class="level2">
-<h2 class="anchored" data-anchor-id="fa-graduation-cap-education"><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> &nbsp;Education</h2>
-<p><strong>BSc(Hons) in Clinical Sciences in Relation to Medicine</strong> (2012) | University of Leeds, UK.</p>
-<p><strong>MBChB(Hons) in Medicine and Surgery</strong> (2014) | University of Leeds, UK.</p>
-<p><strong>MPH in Quantitative Methods</strong> (2017) | Harvard T.H. Chan School of Public Health, Harvard University, USA.</p>
-<p><strong>BSc(Hons) in Computer Science (Data Science)</strong> (2012) | University of London, UK.</p>
-<p><strong>PhD in Medicine</strong> (expected 2025) | University of Leeds, UK.</p>
-</section>
-<section id="fa-user-doctor-experience" class="level2">
-<h2 class="anchored" data-anchor-id="fa-user-doctor-experience"><i class="fa-solid fa-user-doctor" aria-label="user-doctor"></i> &nbsp;Experience</h2>
-<p>2023</p>
-<p>Knox Fellow, Harvard University</p>
-<p>Wellcome Trust Clinical PhD Fellow (4Ward North)</p>
-</section>
-<section id="other" class="level2">
-<h2 class="anchored" data-anchor-id="other">Other</h2>
-<p>Turing Data Study Group UKRI Talent Peer Review College member list Peer review for: BMJ,</p>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Quarto,R,Introduction" data-listing-date-sort="1715295600000" data-listing-file-modified-sort="1697637520196" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./posts/2023-10-17-first-post/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/2023-10-17-first-post/code.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+blog post title
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
+Quarto
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Introduction'); return false;">
+Introduction
+</div>
+</div>
+<div class="card-text listing-description">
+blog post description (appears underneath the title in smaller text) which is included on the listing page
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+JA Batty
+</div>
+<div class="listing-date">
+May 10, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -429,11 +457,41 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Dr.&nbsp;Jonathan Batty<br> Clinical Research Fellow<br> University of Leeds<br> © Copyright 2023 Jonathan Batty<br></div>   
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ © 2023, Jonathan Batty
+  </li>  
+</ul>
+    </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
-    <div class="nav-footer-right"><a href="https://twitter.com/JonnyBatty"><span class="citation" data-cites="JonnyBatty">@JonnyBatty</span></a> on Twitter &nbsp;<i class="fa-brands fa-twitter" aria-label="twitter"></i><br> <a href="https://github.com/jonathanbatty">jonathanbatty</a> on GitHub &nbsp;<i class="fa-brands fa-github" aria-label="github"></i><br> <a href="https://orcid.org/0000-0003-4102-5418">0000-0003-4102-5418</a> on ORCiD &nbsp;<i class="fa-brands fa-orcid" aria-label="orcid"></i><br> Leeds, West Yorkshire, UK &nbsp;<i class="fa-solid fa-location-dot" aria-label="location-dot"></i></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/JonnyBatty">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/jonathanbatty">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://orcid.org/0000-0003-4102-5418"><i class="fa-brands fa-orcid" aria-label="orcid"></i></a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:J.Batty@leeds.ac.uk">
+      <i class="bi bi-envelope-fill" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
   </div>
 </footer>
 

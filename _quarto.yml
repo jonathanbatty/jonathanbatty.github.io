@@ -3,21 +3,46 @@ project:
   output-dir: docs
 
 website:
-  title: Jonny Batty
+  title: "Dr Jonathan Batty"
+  site-url: https://jonathanbatty.github.io
+  description: Jonathan Batty's personal website, portfolio and blog.
+  repo-url: https://github.com/jonathanbatty/jonathanbatty.github.io
+  google-analytics: "G-X9ZR5DDN28"
+  search: true
+  image: graphics/pills_white.jpg
   navbar:
-    left:
+    title: Dr. Jonny Batty
+    logo: graphics/transparent_dark.png
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
+      - posts.qmd
+      - projects.qmd
       - presentations.qmd
+      - publications.qmd
+      - software.qmd
+  page-footer:
+    background: light
+    left: |
+      Dr. Jonathan Batty<br>
+      Clinical Research Fellow<br>
+      University of Leeds<br>
+      &copy; Copyright 2023 Jonathan Batty<br>
+    right: |
+      <a href="https://twitter.com/JonnyBatty">@JonnyBatty</a> on Twitter &nbsp;{{< fa brands twitter >}}<br>
+      <a href="https://github.com/jonathanbatty">jonathanbatty</a> on GitHub &nbsp;{{< fa brands github >}}<br>
+      <a href="https://orcid.org/0000-0003-4102-5418">0000-0003-4102-5418</a> on ORCiD &nbsp;{{< fa brands orcid >}}<br>
+      Leeds, West Yorkshire, UK &nbsp;{{< fa location-dot >}}
+
+
+  favicon: graphics/favicon.ico
 
 format:
   html:
-    theme: 
-      light: flatly
-      dark: darkly
+    theme: [cosmo, styles.scss]
     css: styles.css
     toc: true
-    page-layout: full
+
 
 

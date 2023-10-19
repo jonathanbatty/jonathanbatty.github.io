@@ -1,1 +1,15 @@
 /* css styles */
+
+.navbar-title {
+    color: white;
+}
+
+.profile-img img {
+    filter: grayscale(100%);
+    transition: all .5s;
+}
+
+.profile-img:hover img {
+    filter: grayscale(0%);
+    transition: all .5s;
+}

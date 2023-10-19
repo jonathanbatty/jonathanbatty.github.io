@@ -1,33 +1,102 @@
 ---
-title: "Dr Jonny Batty"
-image: profile.jpg
+title: " "
 toc: false
-about:
-    template: trestles
-    image-shape: round
-    image-width: 20em
-    links:
-        - icon: twitter
-          text: Twitter
-          href: https://twitter.com/JonnyBatty
-        - icon: github
-          text: GitHub
-          href: https://github.com/jonathanbatty
-        - icon: envelope
-          text: Email
-          href: mailto:J.Batty@leeds.ac.uk
+anchor-sections: false
+page-layout: full
 ---
 
 ## Hi there!
-I'm a Specialty Registrar in Cardiology (ST6), currently doing a PhD at the University of Leeds. {{< fa heart-pulse >}} 
+::: {.grid}
 
----
+::: {.g-col-12 .g-col-md-4}
 
-## Education
-**BSc(Hons) in Clinical Sciences in Relation to Medicine** (2012) | University of Leeds, UK.
+::: profile-img
+![](/graphics/profile.png){width=85% fig-align="center"}
+:::
 
-**MBChB(Hons) in Medicine and Surgery** (2014) | University of Leeds, UK.
+:::
 
-**MPH in Quantitative Methods** (2017) | Harvard T.H. Chan School of Public Health, Harvard University, USA.
+::: {.g-col-12 .g-col-md-8}
+My name is Dr Jonny Batty and I am an academic cardiology doctor, based in the [Leeds Institute for Data Analytics](https://lida.leeds.ac.uk/) (LIDA) at the University of Leeds. I am passionate about using routinely-collected healthcare data to better understand health and disease, and to build tools that can be used to improve clinical care.
 
-**PhD in Medicine** (expected 2025) | University of Leeds, UK.
+During my PhD, I plan to use advanced statistical methods to explore the impact of different patterns of multiple long-term conditions in people diagnosed with acute myocardial infarction. This has kindly been funded by [The Wellcome Trust](https://www.4wardnorth.org.uk/). My lead supervisor is [Dr Marlous Hall](https://medicinehealth.leeds.ac.uk/medicine/staff/390/dr-marlous-hall), PI of the [Survivorship and Multimorbidity Epidemiology research group](https://lida.leeds.ac.uk/research-projects/survivorship-and-multimorbidity-epidemiology/).
+
+I'll probably use this as a place to share code snippets, presentations, publications and other thoughts.
+
+:::
+:::
+
+## Latest posts...
+
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+
+
+::: {.card .border-primary .mb-3}
+::: {.card-body}
+Recent posts
+:::
+:::
+
+:::
+
+::: {.g-col-12 .g-col-md-4}
+
+::: {.card .border-secondary .mb-3}
+::: {.card-body}
+Recent talks
+:::
+:::
+
+:::
+
+::: {.g-col-12 .g-col-md-4}
+
+::: {.card .border-success .mb-3}
+::: {.card-body}
+Recent publications
+:::
+:::
+
+:::
+
+
+::: {.g-col-12 .g-col-md-4}
+
+::: {.card .border-danger .mb-3}
+::: {.card-body}
+Hello 4
+:::
+:::
+
+:::
+
+::: {.g-col-12 .g-col-md-4}
+
+::: {.card .border-warning .mb-3}
+::: {.card-body}
+Hello 5
+:::
+:::
+
+:::
+
+::: {.g-col-12 .g-col-md-4}
+
+::: {.card .border-info .mb-3}
+::: {.card-body}
+Hello 6
+:::
+:::
+
+:::
+
+:::
+
+
+
+
+
+
