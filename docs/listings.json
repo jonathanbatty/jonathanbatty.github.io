@@ -1,14 +1,8 @@
 [
   {
-    "listing": "/posts.html",
+    "listing": "/software.html",
     "items": [
-      "/posts/2023-10-17-first-post/index.html"
-    ]
-  },
-  {
-    "listing": "/presentations.html",
-    "items": [
-      "/presentations/2023-10-17-first-presentation/index.html"
+      "/software/2023-10-17-first-software/index.html"
     ]
   },
   {
@@ -18,15 +12,21 @@
     ]
   },
   {
-    "listing": "/software.html",
-    "items": [
-      "/software/2023-10-17-first-software/index.html"
-    ]
-  },
-  {
     "listing": "/projects.html",
     "items": [
       "/projects/2023-10-17-first-projects/index.html"
+    ]
+  },
+  {
+    "listing": "/presentations.html",
+    "items": [
+      "/presentations/2023-10-17-first-presentation/index.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2023-10-17-first-post/index.html"
     ]
   }
 ]
