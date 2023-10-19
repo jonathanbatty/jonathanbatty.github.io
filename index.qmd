@@ -5,6 +5,8 @@ anchor-sections: false
 page-layout: full
 ---
 
+---
+
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
@@ -25,8 +27,7 @@ I'll use this as a place to share code snippets, presentations, publications and
 :::
 :::
 
-## Latest posts...
-
+---
 
 
 
