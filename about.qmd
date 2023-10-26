@@ -1,5 +1,5 @@
 ---
-# show TOC on the left
+# Hide toc (can't see headers in grid)
 toc: false
 
 # Specify full page layout

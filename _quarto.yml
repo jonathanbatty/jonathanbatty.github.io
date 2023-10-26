@@ -8,6 +8,7 @@ website:
   description: Jonathan Batty's personal website, portfolio and blog.
   repo-url: https://github.com/jonathanbatty/jonathanbatty.github.io
   google-analytics: "G-X9ZR5DDN28"
+  cookie-consent: false
   search: true
   image: graphics/pills_white.jpg
   navbar:
@@ -35,7 +36,6 @@ website:
       <a href="https://github.com/jonathanbatty">jonathanbatty</a> on GitHub &nbsp;{{< fa brands github >}}<br>
       <a href="https://orcid.org/0000-0003-4102-5418">0000-0003-4102-5418</a> on ORCiD &nbsp;{{< fa brands orcid >}}<br>
       Leeds, West Yorkshire, UK &nbsp;{{< fa location-dot >}}
-
 
   favicon: graphics/favicon.ico
 

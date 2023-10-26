@@ -3,6 +3,7 @@
 # show TOC on the left
 toc: true
 toc-location: left
+toc-depth: 3
 
 # disable anchor sections
 anchor-sections: false
